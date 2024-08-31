@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    android:backgroundTint="#E4AE5E"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe el primer número"
+        android:inputType="number"
+        android:lineSpacingExtra="8sp" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe el segundo número"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_sumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sumar"
+        android:textColorLink="#FFC107" />
+
+    <Button
+        android:id="@+id/btn_restar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restar"
+        android:textColorLink="#FFC107" />
+
+    <Button
+        android:id="@+id/btn_multiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplicar"
+        android:textColorLink="#FFC107" />
+
+    <Button
+        android:id="@+id/btn_dividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dividir"
+        android:textColorLink="#FFC107" />
+
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Resultado"
+        android:textSize="24sp" />
+
+</LinearLayout>
